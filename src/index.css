@@ -1,9 +1,10 @@
 body {
-  background-color: whitesmoke;
+  background: lightcoral;
+  margin: 0;
 }
 
 .todo-list {
-  background-color: white;
+  background-color: lightgoldenrodyellow;
   margin: auto;
   width: 50%;
   display: flex;
@@ -24,6 +25,10 @@ body {
   padding: 30px;
 }
 
+.small-btn {
+  width: 50px;
+  height: 25px;
+}
 .todo-item {
   display: flex;
   justify-content: flex-start;
@@ -48,7 +53,7 @@ input[type=checkbox]:focus {
 
 .navbar {
   height: 100px;
-  background-color: #333;
+  background-color: #32a852;
   color: whitesmoke;
   margin-bottom: 15px;
   text-align: center;
@@ -56,4 +61,58 @@ input[type=checkbox]:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.imgSize {
+  width: 5000;
+  height: 1000;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  flex-basis: 250px;
+  margin: 20px;
+}
+
+.contact-card > img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-card > h3 {
+  text-align: center;
+}
+
+.contact-card > p {
+  font-size: 12px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+button {
+  border: 1px solid lightgray;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 4px;   
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
 }
